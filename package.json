@@ -1,7 +1,7 @@
 {
-  "name": "m3u8_multi_downloader",
-  "version": "1.0.4",
-  "description": "use node.js download m3u8 to mp4 by multi process",
+  "name": "m3u8-downloader",
+  "version": "2.0.0",
+  "description": "use node.js download m3u8 to mp4",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -22,13 +22,9 @@
   },
   "homepage": "https://github.com/JohnnieFucker/m3u8Downloader#readme",
   "dependencies": {
+    "fs-extra": "^8.1.0",
     "md5": "^2.2.1",
     "request": "^2.88.0",
     "url": "^0.11.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-vue": "^5.2.3"
   }
 }
